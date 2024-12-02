@@ -1,23 +1,132 @@
 <!DDCTYPE html>
 <html>
+  <html lang="en">
 
 <head>
   <title>Wasinghon Pinwsies</title>
-</head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ปุ่มลิงก์</title>
+<style>
+  .container {
+        width: 60%;
+        margin: auto;
+        background: rgba(54, 54, 54, 0.849);
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.041);
+        margin-top: 50px;
+    }
+  body {
+          color : rgb(255, 255, 255);
+       }
+       h1{
+        font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+       }
+       h3{
+        font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+       }
+       body {
+        background-image: url('img/02.jpg');
+        background-size: cover; /* ปรับขนาดรูปให้เต็มหน้าจอ */
+        background-position: center; /* จัดตำแหน่งรูป */
+        background-repeat: no-repeat; /* ป้องกันการซ้ำ */
+    }  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button และ Link</title>
+    <style>
+      .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #fd0909;
+            color: white;
+            text-decoration: none; /* ลบเส้นใต้ */
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+        }
 
+        .button:hover {
+            background-color: #fd0909;
+            /*ตาราง*/
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* รวมเส้นขอบ */
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd; /* เส้นขอบ */
+            text-align: left; /* จัดข้อความชิดซ้าย */
+            padding: 8px; /* ระยะห่างในเซลล์ */
+        }
+
+        th {
+            background-color: #4caf4f00;
+            color: rgb(255, 255, 255);
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f200; /* แถวที่เป็นเลขคู่ */
+        }
+</style>
 <body>
+  <div class="container">
   <body style="background-color: darkcyan;"></body>
 
-  <center><img src="img/01.jpg" alt="Example Image" width="400" height="500"/></center>
+  <center><img src="img/01.jpg" alt="Example Image" style = "
+    width: 250px;
+    height: 275px;
+    border-radius: 500%;
+    box-shadow: 0 3px 5px rgba(36, 35, 35, 0.1);
+    "/></center>
 
   <center><h1>My Wasinghon Pinwsies</h1></center>
   <center><h3>นายวสิงหล ปิ่นวิเศษ</h3></center>
   <center><h3>ชื่อเล่น สิง อายุ 20</h3></center>
   <center><h3>งานอดิเรก เล่นเกม เล่นบาส อ่านมังงะ ดูอนิเมะ</h3></center>
-  <center><h3>สถานศึกษามหาราชวิทยาลัย ราชมงคลสุวรรณภูมิ หันตรา</h3></center>
+  <center><h3>สถานศึกษามหาวิทยาลัย ราชมงคลสุวรรณภูมิ หันตรา</h3></center>
   <center><h3>สาขาวิทยาศาสตร์และเทคโนโลยี มัตติมีเดีย</h3></center>
-<center><h4><a href="https://www.facebook.com/wasinghonpinw/">facebook</a></h4></center>
-<p>My First paragraph.</p>
-
-</body>
+<center>
+  <a href="https://www.facebook.com/wasinghonpinw/" class="button" target="_blank"><button>facebook</button></a>
+<h1>ตัวอย่างการสร้างตาราง</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ปี</th>
+                <th>ระดับการศึกษา</th>
+                <th>สถาบัน</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2560-2563</td>
+                <td>มัธยมต้น</td>
+                <td>โรงเรียนชลประทานวิทยา</td>
+            </tr>
+            <tr>
+                <td>2563-2566</td>
+                <td>มัธยมปลาย</td>
+                <td>โรงเรียนชลประทานวิทยา</td>
+            </tr>
+            <tr>
+                <td>2566-ปัญจุบัน</td>
+                <td>ปริญญาตรี</td>
+                <td>มหาวิทยาลัย ราชมงคลสุวรรณภูมิ หันตรา</td>
+            </tr>
+        </tbody>
+    </table>
+  </center>
+  </body>
 </html>
+</div>
+<h3 Align = right></h3>
